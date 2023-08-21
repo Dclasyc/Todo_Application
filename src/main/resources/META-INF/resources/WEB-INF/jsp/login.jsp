@@ -1,9 +1,6 @@
-<html>
-	<head>
-	    <link href="webjars\bootstrap\5.3.0\css\bootstrap.min.css" rel="Stylesheet">
-		<title> Login Page - JSP</title>
-	</head>
-	<body>
+<%@ include file="common/header.jspf" %>
+<%@ include file="common/navigation.jspf" %>
+
 	   <div class="container">
             <div class="mt-3">
                 <h4>Welcome</h4>
@@ -33,7 +30,4 @@
             </form>
 	   </div>
 
-	   <script src"webjars\bootstrap\5.3.0\js\bootstrap.min.js"></script>
-       <script src"C:webjars\jquery\3.6.4\jquery.min.js"></script>
-	</body>
-</html>
+<%@ include file="common/footer.jspf" %>
